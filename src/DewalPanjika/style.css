@@ -1,0 +1,29 @@
+.mobile{
+  border-radius: 15px;
+  border: #000000;
+  border-width: thick;
+}
+.mobile-cover{
+  border-radius: 20px;
+  box-shadow: 0 0 1rem #000000;
+  background-color: #000000;
+}
+.video{
+  border-radius: 20px;
+  box-shadow: 0 0 1rem #000000;
+  background-color: #000000;
+  margin-top: 0rem;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px),
+  only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
+    .mobile-cover{
+      box-shadow: 0 0 1rem #7e7e7e;
+    }
+
+    .up-space{
+      padding-top: 20rem;
+    }
+
+  }

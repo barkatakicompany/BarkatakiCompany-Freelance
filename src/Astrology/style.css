@@ -1,0 +1,79 @@
+@keyframes rotation {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(0px, 0px) rotate(360deg);
+  }
+}
+.rotation {
+  animation: rotation linear infinite 30s;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  10% {
+    transform: translate(3px, 1px);
+  }
+  20% {
+    transform: translate(2px, 5px);
+  }
+  30% {
+    transform: translate(1, -1px);
+  }
+  40% {
+    transform: translate(-5px, -3px);
+  }
+  50% {
+    transform: translate(-3px, 4px);
+  }
+  60% {
+    transform: translate(2px, 5px);
+  }
+  70% {
+    transform: translate(1px, 1px);
+  }
+  80% {
+    transform: translate(2px, 0px);
+  }
+  90% {
+    transform: translate(-6, 3px);
+  }
+  100% {
+    transform: translate(0, 0px);
+  }
+}
+.floating {
+  animation: floating linear infinite 30s;
+}
+
+.main-form {
+  margin-top: -5rem;
+}
+.knowyourplanets p.desc {
+  display: none;
+}
+.knowyourplanets div:hover p {
+  display: block;
+}
+
+.telescope {
+  margin-top: -17rem;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px),
+  only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .telescope {
+    display: none;
+  }
+
+  .main-form {
+    margin-top: 0;
+  }
+}
+.data {
+  position: absolute;
+}

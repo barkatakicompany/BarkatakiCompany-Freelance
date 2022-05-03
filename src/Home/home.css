@@ -1,0 +1,40 @@
+.astro {
+  background-color: #010f24;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+.store {
+  background-color: #ffdfc9;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+.dewal-panjika {
+  background-color: #faf0ca;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+.printing {
+  background-color: #f1f1f1;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+.astro:hover,
+.store:hover,
+.dewal-panjika:hover,
+.printing:hover {
+  cursor: pointer;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px),
+  only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+}
+
+.socialmedia-home{
+background: hsla(141, 81%, 87%, 1);
+
+background: linear-gradient(0deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
+
+background: -moz-linear-gradient(0deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
+
+background: -webkit-linear-gradient(0deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C5F9D7", endColorstr="#F7D486", GradientType=1 );}
